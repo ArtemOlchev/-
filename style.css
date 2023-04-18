@@ -109,6 +109,7 @@ a {
     color: #FF3104;
 }
 
+
 /* entities */
 .current-link {
     color: #1BFFC8 !important;
@@ -185,4 +186,38 @@ a {
 
 .entity-table-toolbar div:hover {
     cursor: pointer;
+}
+
+
+/* entity */
+.entity-field {
+    width: 500px;
+    height: 50px;
+    border-radius: 20px;
+    border: white 2px solid;
+    background-color: rgba(27, 255, 202, 0);
+    line-height: 50px;
+    font-weight: 500;
+    color: white;
+    font-size: 16px;
+    margin: 15px 0;
+    text-align: center;
+}
+
+#create-entity-btn {
+    width: 205px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 20px;
+    background-color: #FF3104;
+    color: #1BFFC8;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+#create-entity-btn:active {
+    background-color: #ac1f00;
 }
